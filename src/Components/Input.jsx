@@ -36,6 +36,7 @@ function Input() {
         <div className="search-bar" id="searchBar">
           <input
             className="form-control rounded"
+            placeholder="Enter City Name"
             type="text"
             id="searchBar"
             maxLength={20}
