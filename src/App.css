@@ -7,7 +7,7 @@ body {
 }
 
 .card {
-  background-image: url("https://i.imgur.com/dpqZJV5.jpg");
+  background-image: url("../public/dpqZJV5.jpg");
   background-size: cover;
   width: 600px;
   height: 350px;
