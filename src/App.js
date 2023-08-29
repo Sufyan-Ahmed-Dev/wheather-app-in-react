@@ -4,7 +4,7 @@ import "./App.css";
 function App(props) {
   const { wheatherdata } = props;
   const [data, setData] = useState([]);
-  console.log(wheatherdata)
+  // console.log(wheatherdata)
   useEffect(() => {
     if (wheatherdata) {
       setData((prevData) => [...prevData, wheatherdata]);
