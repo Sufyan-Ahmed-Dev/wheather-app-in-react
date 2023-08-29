@@ -11,9 +11,9 @@ function App(props) {
     }
 
   }, [wheatherdata]);
-  useEffect(() => {
-    data.reverse();
-  }, [data]);
+  // useEffect(() => {
+  //   data.reverse();
+  // }, [data]);
 
   return (
     <>
