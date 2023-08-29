@@ -32,7 +32,7 @@ function Input() {
   };
   return (
     <>
-      <div className="container sticky-top">
+      <div className="container-fluid sticky-top">
         <div className="search-bar" id="searchBar">
           <input
             className="form-control rounded"
@@ -44,7 +44,7 @@ function Input() {
             required
             ref={iValue}
           />
-          <button type="button" className="btn btn-primary" onClick={callApi}>
+          <button type="button" className="btn btn-dark" onClick={callApi}>
             Check!
           </button>
         </div>
