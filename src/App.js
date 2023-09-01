@@ -7,14 +7,10 @@ function App(props) {
   // console.log(wheatherdata)
   useEffect(() => {
     if (wheatherdata) {
-      setData((prevData) => [...prevData, wheatherdata]);
+      setData((prevData) => [wheatherdata , ...prevData]);
     }
 
   }, [wheatherdata]);
-  // useEffect(() => {
-  //   data.reverse();
-  // }, [data]);
-
   return (
     <>
       <div className="container-fluid px-1 px-md-4 mx-auto">
@@ -48,7 +44,7 @@ function App(props) {
             </div>
           </div>
 
-        )).reverse()}
+        ))}
       </div>
     </>
   );
