@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Card.css"
 export default function Card(item) {
+    console.log(item.item.length)
     return (
         <>
-            <div className="row d-flex justify-content-center px-3" >
+        {(item.item.length === 0) ? <p className='text-center fw-bold' > No Data</p> :  <div className="row d-flex justify-content-center px-3" >
                 <div className="card animate-card item-center ">
 
                     <h2 className="ml-auto mr-4 mt-3 mb-0">
@@ -31,7 +32,8 @@ export default function Card(item) {
                     </p>
 
                 </div>
-            </div>
+            </div>} 
+           
 
 
         </>
